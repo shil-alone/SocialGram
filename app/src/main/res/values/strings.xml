@@ -10,5 +10,9 @@
     <string name="discover">Discover</string>
     <string name="add_story">Add a Story</string>
     <string name="name">Shil Alone</string>
+    <string name="about_dummy">Traveler ,Life Lover</string>
+    <string name="like_dummy">354</string>
+    <string name="comment_dummy">42</string>
+    <string name="share_dummy">10</string>
 
 </resources>

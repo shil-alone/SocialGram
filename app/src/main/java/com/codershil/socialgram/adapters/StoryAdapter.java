@@ -53,7 +53,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.StoryViewHol
         public StoryViewHolder(@NonNull View itemView) {
             super(itemView);
             storyImage = itemView.findViewById(R.id.storyImage);
-            profileImage = itemView.findViewById(R.id.profile_image);
+            profileImage = itemView.findViewById(R.id.imgProfile);
             storyType = itemView.findViewById(R.id.storyType);
             txtName = itemView.findViewById(R.id.txtName);
         }
