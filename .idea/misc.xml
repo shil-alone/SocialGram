@@ -5,18 +5,22 @@
       <map>
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/drawable/add_story_background.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/drawable/black_shade.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/drawable/circle_background.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/drawable/ic_add.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/drawable/orange_circle.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/drawable/toolbar_bg.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/drawable/white_circle.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/activity_main.xml" value="0.209375" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/fragment_add_post.xml" value="0.18518518518518517" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/fragment_notification.xml" value="0.18518518518518517" />
-        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/fragment_profile.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/fragment_profile.xml" value="2.0" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/fragment_search.xml" value="0.18518518518518517" />
-        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/post_item.xml" value="0.33" />
+        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/friend_item.xml" value="0.209375" />
+        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/post_item.xml" value="0.209375" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/layout/story_item.xml" value="0.5" />
         <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/menu/main_menu.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/shila/AndroidStudioProjects/SocialGram/app/src/main/res/menu/profile_menu.xml" value="0.209375" />
       </map>
     </option>
   </component>
@@ -25,5 +29,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
   </component>
 </project>

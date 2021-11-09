@@ -6,7 +6,10 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.codershil.socialgram.databinding.ActivityMainBinding;
@@ -27,7 +30,11 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
+        setSupportActionBar(binding.mainToolbar);
+        getSupportActionBar().setTitle(R.string.my_toolbar_title);
+        binding.mainToolbar.setVisibility(View.GONE);
+
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
 
         binding.mainBottomNavigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
@@ -36,24 +43,39 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 switch (id) {
                     case R.id.home:
-                        transaction.replace(R.id.fragment_container,new HomeFragment()).commit();
+                        transaction.replace(R.id.fragment_container, new HomeFragment()).commit();
+                        binding.mainToolbar.setVisibility(View.GONE);
                         break;
                     case R.id.notification:
-                        transaction.replace(R.id.fragment_container,new NotificationFragment()).commit();
+                        transaction.replace(R.id.fragment_container, new NotificationFragment()).commit();
+                        binding.mainToolbar.setVisibility(View.GONE);
                         break;
                     case R.id.addPost:
-                        transaction.replace(R.id.fragment_container,new AddPostFragment()).commit();
+                        transaction.replace(R.id.fragment_container, new AddPostFragment()).commit();
+                        binding.mainToolbar.setVisibility(View.GONE);
                         break;
                     case R.id.search:
-                        transaction.replace(R.id.fragment_container,new SearchFragment()).commit();
+                        transaction.replace(R.id.fragment_container, new SearchFragment()).commit();
+                        binding.mainToolbar.setVisibility(View.GONE);
                         break;
                     case R.id.profile:
-                        transaction.replace(R.id.fragment_container,new ProfileFragment()).commit();
+                        transaction.replace(R.id.fragment_container, new ProfileFragment()).commit();
+                        binding.mainToolbar.setVisibility(View.VISIBLE);
                         break;
                 }
-
                 return true;
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.profile_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        return super.onOptionsItemSelected(item);
     }
 }

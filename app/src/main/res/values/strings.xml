@@ -14,5 +14,12 @@
     <string name="like_dummy">354</string>
     <string name="comment_dummy">42</string>
     <string name="share_dummy">10</string>
+    <string name="work_dummy">Android Developer</string>
+    <string name="followers">Followers</string>
+    <string name="friends">Friends</string>
+    <string name="my_friends">My Friends</string>
+    <string name="photos">Photos</string>
+    <string name="my_toolbar_title">My Profile</string>
+    <string name="about">I am an android developer with interest in building various cool applications for making peoples life easy.</string>
 
 </resources>
