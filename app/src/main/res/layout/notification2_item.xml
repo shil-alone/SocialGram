@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgNotificationProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="2dp"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/orange_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/imgNotificationProfile"
+        app:layout_constraintEnd_toEndOf="@+id/imgNotificationProfile"
+        app:layout_constraintStart_toStartOf="@+id/imgNotificationProfile"
+        app:layout_constraintTop_toTopOf="@+id/imgNotificationProfile" />
+
+    <TextView
+        android:id="@+id/txtNotification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/notification_dummy"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgNotificationProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgNotificationProfile"
+        app:layout_constraintTop_toTopOf="@+id/imgNotificationProfile"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <TextView
+        android:id="@+id/txtNotificationTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notification_time"
+        app:layout_constraintStart_toStartOf="@+id/txtNotification"
+        app:layout_constraintTop_toBottomOf="@+id/txtNotification" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,7 +3,7 @@
 
     <string name="home">Home</string>
     <string name="add">Add Post</string>
-    <string name="notification">Notification</string>
+    <string name="notification">Notifications</string>
     <string name="profile">Profile</string>
     <string name="search">Search</string>
 
@@ -20,6 +20,13 @@
     <string name="my_friends">My Friends</string>
     <string name="photos">Photos</string>
     <string name="my_toolbar_title">My Profile</string>
+    <string name="request">Requests</string>
+    <string name="notification_dummy">Shil Alone commented on your post</string>
+    <string name="notification_time">Just Now</string>
     <string name="about">I am an android developer with interest in building various cool applications for making peoples life easy.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome To SocialGram</string>
+    <string name="keep_connected">Keep Connected With Friends</string>
 
 </resources>
